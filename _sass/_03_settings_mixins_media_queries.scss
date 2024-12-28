@@ -479,12 +479,12 @@ $cursor-text-value: text !default;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-
     // Get rid of gap under images by making them display: inline-block; by default
-    img {
-      display: inline-block;
-      vertical-align: middle;
-    }
+    // img {
+    //  display: inline-block;
+    //  vertical-align: middle;
+    // }
+
 
     //
     // Global resets for forms

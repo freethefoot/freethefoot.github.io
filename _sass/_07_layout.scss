@@ -71,6 +71,7 @@ body.video cite { color: #fff; }
 #masthead {
     background-color: $primary-color;
 }
+
 #masthead-no-image-header {
     background-color: $primary-color;
 }
@@ -83,10 +84,23 @@ body.video cite { color: #fff; }
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 #masthead-no-image-header {
-    height: 175px;
+    height: 250px;
 }
+
+.small-12.columns {
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Optionally center vertically if needed */
+    height: 100%;            /* Ensure the container takes full height */
+  }
+  
+  #logo img {
+    max-width: 100%; /* Ensure the image scales well */
+    height: auto;    /* Maintain aspect ratio */
+  }  
+
 #masthead-no-image-header #logo img {
-    margin-top: 60px;
+    margin-top: 0px;    
 }
 
 /* Masthead › small-only
